@@ -30,18 +30,11 @@ under the License.
 
     <dependencies>
         <dependency>
-            <groupId>test</groupId>
+            <groupId>org.apache.maven.its.dependency</groupId>
             <artifactId>ResourceArtifact</artifactId>
             <version>1.0</version>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>lib</id>
-            <url>file:${project.basedir}/lib</url>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
