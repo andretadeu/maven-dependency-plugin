@@ -25,5 +25,3 @@ assert file1.isFile()
 
 File file2 = new File( basedir, "resources2/resource2.txt" )
 assert file2.isFile()
-
-return true
